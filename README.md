@@ -29,9 +29,6 @@ The matrix shows a random pattern for a few seconds. The pattern disappears, and
 | Jumper wires | Male-to-female |
 | A computer | Windows, macOS or Linux |
 
-> **Photo of the finished setup:** add your own photo to an `images/` folder and it will show up here.
->
-> `![Finished setup](images/setup.jpg)`
 
 ---
 
