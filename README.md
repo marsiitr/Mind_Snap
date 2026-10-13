@@ -76,7 +76,7 @@ The size of one "square" shrinks as you level up. Each new stage also starts wit
 | Joystick pin | Arduino pin |
 |---|---|
 | GND | GND |
-| +5V | 5V |
+| +5V | Vin |
 | VRx | A0 |
 | VRy | A1 |
 | SW | D2 |
