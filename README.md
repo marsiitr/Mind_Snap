@@ -27,7 +27,7 @@ The matrix shows a random pattern for a few seconds. The pattern disappears, and
 | 8x8 LED matrix with **MAX7219** driver | The module with 5 pins: VCC, GND, DIN, CS, CLK |
 | **HW-504** analog joystick module | 5 pins: GND, +5V, VRx, VRy, SW |
 | Jumper wires | Male-to-female |
-| A computer | Windows, macOS or Linux |
+| A computer |
 
 
 ---
@@ -88,8 +88,6 @@ The size of one "square" shrinks as you level up. Each new stage also starts wit
 - Leave pin **A5 unconnected**. The code reads it to get random numbers so that every game is different.
 - The joystick button (SW) uses the Arduino's built-in pull-up resistor, so you do not need an extra resistor.
 
-> **Photo of the wiring:** `![Wiring photo](images/wiring.jpg)`
-
 ---
 
 ## 4. Installing the Arduino IDE
@@ -101,14 +99,11 @@ The Arduino IDE is the free program used to write code and upload it to the boar
 1. Open **https://www.arduino.cc/en/software** in your browser.
 2. Under **Arduino IDE**, choose the download for your system:
    - **Windows:** "Windows Win 10 and newer, 64 bits" (installer)
-   - **macOS:** the Apple Silicon or Intel version that matches your Mac
-   - **Linux:** the AppImage or ZIP file
 3. You may see a donation page. You can choose **"Just download"**.
 
 ### Step 2: Install
 
 - **Windows:** double-click the downloaded `.exe` and follow the installer. Accept the driver prompts if they appear.
-- **macOS:** open the `.dmg` and drag **Arduino IDE** into the **Applications** folder.
 
 ### Step 3: Connect the Arduino
 
@@ -116,12 +111,8 @@ The Arduino IDE is the free program used to write code and upload it to the boar
 2. Open the Arduino IDE.
 3. Go to **Tools > Board** and choose your board:
    - **Arduino Uno:** *Arduino AVR Boards > Arduino Uno*
-   - **Arduino Nano:** *Arduino AVR Boards > Arduino Nano*
 4. Go to **Tools > Port** and choose the port that appeared when you plugged in the board:
    - Windows: `COM3`, `COM4`, etc.
-   - macOS: `/dev/cu.usbmodem...` or `/dev/cu.usbserial...`
-   - Linux: `/dev/ttyUSB0` or `/dev/ttyACM0`
-
 ---
 
 ## 5. Installing the LedControl library
